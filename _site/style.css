@@ -22,19 +22,7 @@ body {
   background-color: white;
 }
 
-.en-banner {
-  font-size: 1rem;
-  background-color: rgba(200,20,20);
-  color: white;
-  padding: 2%;
-  text-align: center;
-}
 
-.en-banner-link:hover {
-  font-weight: bold;
-  color: white;
-}
-/*--------------------------------------------------------------------------------------------*/
 /*------------------------------------ Reusable Styles / Utility Classes ---------------------------------------*/
 
 .left           {   text-align:     left;   }
@@ -61,22 +49,13 @@ body {
 
 .box            {  padding-left:    14%;
                     padding-right: 14%;     }
-/*--------------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------------------*/
-/*----------------------------------- Typography --------------------------------------*/
-/*----- /* Universal Styles 
-h2, h3, h4, h5, h6 {
-    line-height: 1.1;
-    margin-bottom: 0.8rem;
-}
- ----------*/
 
+                
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    /*font-family: 'Work Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #021a3c;
+    color: brown;
 }
 
 p  {    
@@ -111,10 +90,10 @@ h6 {
 
 .ueberschrift {   
                 display: inline-block;
-                color: rgba(200,20,20);
-                font-family: 'Source Sans Pro', sans-serif;
+                color: brown;
+                font-family: 'Montserrat', sans-serif;
                 font-style: italic;
-                font-weight: 900;
+                font-weight: 500;
                 margin-bottom: 5px;
                 padding: 0.5rem; }
 
@@ -127,23 +106,23 @@ a {
 }
 
 a:hover { 
-    color: rgba(200,20,20); 
+    color: gold; 
 }
 
 .button-style {
     color: white;
-    background-color: rgba(200,20,20);
+    background-color: brown;
     display: inline-block;
-    border: 1px solid rgba(200,20,20); 
+    border: 1px solid brown; 
     border-radius: 30px; 
     padding: 1rem 1.2rem;
     margin: 2rem 0rem 0rem 0rem;
 }
 
 .button-style:hover {
-    color: rgba(200,20,20);
+    color: brown;
     background-color:white;
-    border: 1px solid rgba(200,20,20);
+    border: 1px solid brown;
     transition: all 0.3s;
 }
 
@@ -184,7 +163,7 @@ footer nav a {
 }
 
 .link:hover {   
-    border-bottom: 1px solid rgba(200,20,20);    
+    border-bottom: 1px solid brown;    
 }
 
 .light-link       {
@@ -194,7 +173,7 @@ footer nav a {
 }
 
 .light-link:hover {   
-    border-bottom: 1px solid rgba(200,20,20);    
+    border-bottom: 1px solid brown;    
 }
 
 
@@ -263,14 +242,14 @@ max-width: 200px;
     background-repeat: no-repeat; 
     width: 50%;
     height: 300px;
-    border: 15px solid #021a3c;
+    border: 15px solid gold;
 }
 
 /*-----------------------------------------------------------------*/
   /*--------------------- Background Colours ---------------------------*/
 
   .bg-dark {
-    background-color: #021a3c;
+    background-color: brown;
 }
 
 .bg-light {
@@ -286,91 +265,15 @@ max-width: 200px;
 
   .bg-featured {
     background-image: url('/images/bmw-3.jpg');
-    background-color: #021a3c;
+    background-color: brown;
 }
 
   .bg-shiffrin {
       background-image: url('/images/mikaela-shiffrin.jpg.webp');
-      background-color: #021a3c;
+      background-color: brown;
   }
 
-  .bg-greenboots {
-    background-image: url('/images/bmw-green-boots.jpg.webp');
-    background-color: #021a3c;
-}
 
-.bg-panoramalight {
-    background-image: url('/images/panorama-light.jpg.webp');
-    background-color: #021a3c;
-}
-
-.bg-sochi {
-    background-image: url('/images/sochi-abfahrt.jpg.webp');
-    background-color: #021a3c;
-}
-
-.bg-us-event {
-    background-image: url('/images/us-event.jpg.webp');
-    background-color: #021a3c;
-}
-
-.bg-us-team {
-    background-image: url('/images/training-featured.png.webp');
-    background-color: #021a3c;
-}
-
-.bg-julia {
-    background-image: url('/images/bmw-julia.jpg');
-    background-color:#021a3c;
-}
-
-.bg-ski {
-    background-image: url('/images/simulator-ski.jpg');
-    background-color: white;
-}
-
-.bg-training-snowboard {
-    background-image: url('/images/training-snowboard.jpg.webp');
-    background-color: rgba(200,20,20);
-}
-
-.bg-simulator-snowboard {
-    background-image: url('/images/simulator-snowboard.jpg');
-    background-color: rgba(200,20,20);
-}
-
-.club-showroom {
-    background-image: url('/images/club-showroom.jpg.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.bmw-yellow-crop {
-    background-image: url('/images/bmw-yellow-crop.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.abfahrt-2 {
-    background-image: url('/images/abfahrt-2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-   /* Section: "Training und Events" -------------------------------------------------------------------- */
-
-/*----- Background Position Examples 
-    .img-1 {background-position: 20% 50%;}
-    .img-2 {background-position: 100% 49%;}
-    .img-3 {background-position: center;}
-    .img-4 {background-position: 29% 50%;}
-    .img-5 {background-position: 30% 70%;}
---------*/
-
- /*----------------------------------------------------------------*/
 /*----------------------- Kontaktformular -----------------------*/
     form input, form textarea {
         width: 100%;
@@ -384,7 +287,7 @@ max-width: 200px;
       
       form input:focus, 
       form textarea:focus {
-        border-color: rgba(200,20,20);
+        border-color: brown;
       }
       
       textarea {
@@ -395,23 +298,23 @@ max-width: 200px;
         /*---- change label from default display inline-block to display: block to set custom margin ----*/
         display: block;
         margin-top: 1rem;
-          color: rgba(200,20,20);
+          color: brown;
           font-weight: bold;
         }
         
         form button {
-          background-color: rgba(200,20,20);
+          background-color: brown;
           color: white;
-          border: 1px solid rgba(200,20,20);
+          border: 1px solid brown;
           padding: 1rem 2rem;
           margin: 1rem 0;
           letter-spacing: 0.5rem 0;
         }
 
         button:hover {
-            color: #c0392b;
+            color: gold;
             background-color: white;
-            border: 1px solid rgba(200,20,20);
+            border: 1px solid gold;
           }
 
           .pointer { cursor: pointer; }
@@ -444,85 +347,6 @@ max-width: 200px;
   	left: 0; 
   	width: 100%; 
   	height: 100%; 
-}
-/*--------------------------------------------------------------------------------------------------------*/
-/*-------------------------- SALES ---------------------------------------------------*/
-
-.bg-leader-pro { 
-    background-image: url('/images/simulators/leader-pro.jpg');
-    background-color: white;
-    color: rgba(200,20,20);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 50%;
-    margin: 1rem;
-}
-
-.bg-president { 
-    background-image: url('/images/simulators/president.jpg');
-    background-color: white;
-    color: rgba(200,20,20);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 50%;
-    margin: 1rem;
-}
-
-.bg-president-lux { 
-    background-image: url('/images/simulators/president-lux.jpg');
-    background-color: white;
-    color: rgba(200,20,20);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-   padding-bottom: 50%;
-    margin: 1rem;
-}
-
-.bg-olymp { 
-    background-image: url('/images/simulators/olymp.jpg');
-    background-color: white;
-    color: rgba(200,20,20);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 50%;
-    margin: 1rem;
-}
-
-/*--------------------------------------------------------------------------------------------------------*/
-
-.card {
-    background-color: white;
-    padding: 0;
-    border: 2rem solid #021a3c;
-}
-
-.horizontal-scroll {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-  } 
-
-.bg-leader-pro span {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.bg-president span {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.bg-president-lux span {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.bg-olymp span {
-    text-transform: uppercase;
-    font-weight: 600;
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
@@ -598,7 +422,7 @@ max-width: 200px;
   }
   
   .nav-link:hover{
-    color: rgba(200,20,20);
+    color: brown;
   }
   
   .hamburger {
@@ -612,7 +436,7 @@ max-width: 200px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
-    background-color: rgba(200,20,20);
+    background-color: brown;
   }
   
   @media(max-width:768px){
