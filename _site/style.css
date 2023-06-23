@@ -19,11 +19,35 @@
 }
 
 body {
-  background-color: white;
+  background-color: mintcream;
+}
+
+header {
+  background-color: mintcream;
+  border: 1px solid black;
+}
+.logo-text {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.nav-branding {
+  background-color: lemonchiffon;
+}
+
+footer {
+  background-color: rgb(240,178,68);
 }
 
 
+
 /*------------------------------------ Reusable Styles / Utility Classes ---------------------------------------*/
+
+.bg-green { background-color: rgb(149,169,132); }
+.bg-blue { background-color: rgb(53,156,183); 
+          color: white; }
+.bg-yellow { background-color: rgb(240,178,68); }
+.bg-white { background-color: white; }
 
 .left           {   text-align:     left;   }
 .center         {   text-align:     center; }
@@ -55,7 +79,7 @@ body {
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: brown;
+    color: rgb(12,31,61);
 }
 
 p  {    
@@ -67,7 +91,7 @@ h1 {    font-size:      2.5rem;
 }
 
 h2 {    font-size:      1.8rem; 
-        font-weight:    400;
+        font-weight:    900;
         margin:         2rem;       
 }
 
@@ -75,11 +99,7 @@ h3 {    font-size:      1.8rem;
 }
 
 h5 {
-        color: white;
         font-size: 3rem;
-        font-weight: 700;
-        line-height:1.4em;
-        letter-spacing: 0.2rem;
 }
 
 h6 {
@@ -241,38 +261,38 @@ max-width: 200px;
     background-position: center;
     background-repeat: no-repeat; 
     width: 50%;
-    height: 300px;
-    border: 15px solid gold;
+    height: 400px;
+    border: 15px solid white;
 }
 
 /*-----------------------------------------------------------------*/
   /*--------------------- Background Colours ---------------------------*/
 
-  .bg-dark {
-    background-color: brown;
-}
 
-.bg-light {
-    background-color: white;
-}
 
-.bg-plum {
-    background-color: plum;
-}
 /*-----------------------------------------------------------------*/
  /*--------------------- Background Images ---------------------------*/
 
 
-  .bg-featured {
-    background-image: url('/images/bmw-3.jpg');
-    background-color: brown;
+  .bg-pop-featured {
+    background-image: url('/images/bg-pop-featured.png'); 
+    background-color: rgb(240,178,68);
 }
 
-  .bg-shiffrin {
-      background-image: url('/images/mikaela-shiffrin.jpg.webp');
-      background-color: brown;
-  }
+.pop-ski-1 {
+  background-image: url('/images/pop-ski-1.png');
+  background-color: rgb(53,156,183);
+}
 
+.pop-ski-2 {
+  background-image: url('/images/pop-ski-2.png');
+  background-color: rgb(149,169,132);
+}
+
+.pop-ski-3 {
+  background-image: url('/images/pop-ski-3.png');
+  background-color: rgb(53,156,183);
+}
 
 /*----------------------- Kontaktformular -----------------------*/
     form input, form textarea {
@@ -287,7 +307,7 @@ max-width: 200px;
       
       form input:focus, 
       form textarea:focus {
-        border-color: brown;
+        border-color: rgb(53,156,183);
       }
       
       textarea {
@@ -298,23 +318,23 @@ max-width: 200px;
         /*---- change label from default display inline-block to display: block to set custom margin ----*/
         display: block;
         margin-top: 1rem;
-          color: brown;
+          color: rgb(53,156,183);
           font-weight: bold;
         }
         
         form button {
-          background-color: brown;
+          background-color: rgb(53,156,183);
           color: white;
-          border: 1px solid brown;
+          border: 1px solid rgb(53,156,183);
           padding: 1rem 2rem;
           margin: 1rem 0;
           letter-spacing: 0.5rem 0;
         }
 
         button:hover {
-            color: gold;
+            color: rgb(53,156,183);
             background-color: white;
-            border: 1px solid gold;
+            border: 1px solid rgb(53,156,183);
           }
 
           .pointer { cursor: pointer; }
@@ -419,10 +439,11 @@ max-width: 200px;
   
   .nav-link {
     transition: 0.5s ease;
+    background-color: lemonchiffon;
   }
   
   .nav-link:hover{
-    color: brown;
+    color: gold;
   }
   
   .hamburger {
