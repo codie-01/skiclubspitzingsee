@@ -90,6 +90,11 @@ h6 {
   font-size: 0.9rem;
 }
 
+.logo-text {
+  font-size: 1.5rem;
+  background-color: lemonchiffon;
+}
+
 .light-text   { color:  white;  }
 
 .ueberschrift {   
@@ -251,7 +256,7 @@ max-width: 200px;
     background-repeat: no-repeat; 
     width: 50%;
     height: 300px;
-    border: 15px solid gold;
+    border: 15px solid white;
 }
 
 /*-----------------------------------------------------------------*/

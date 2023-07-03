@@ -90,6 +90,11 @@ h6 {
   font-size: 0.9rem;
 }
 
+.logo-text {
+  font-size: 1.5rem;
+  background-color: lemonchiffon;
+}
+
 .light-text   { color:  white;  }
 
 .ueberschrift {   
@@ -100,6 +105,65 @@ h6 {
                 font-weight: 500;
                 margin-bottom: 5px;
                 padding: 0.5rem; }
+
+                /*--------------------- Images and Backgrounds ---------------------------*/
+
+img {   
+  max-width: 100%;    
+}
+
+.navbar img {
+max-width: 200px;
+}
+
+
+.bg {
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gallery {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 50%;
+    height: 300px;
+    border: 15px solid white;
+}
+
+
+  .bg-green { background-color: rgb(149,169,132); }
+  .bg-blue { background-color: rgb(53,156,183);}
+  .bg-yellow { background-color: rgb(240,178,68); }
+
+  .bg-feat { 
+      background-color: rgb(53,156,183); 
+      color: white; 
+      background-image: url('/images/bg-pop-featured.png');
+}
+
+  .bg-yellow { background-color: rgb(12,31,61); }
+
+  .bg-white { background-color: white; }
+
+ /*--------------------- Background Images ---------------------------*/
+
+.pop-ski-1 {
+background-image: url('/images/pop-ski-1.png');
+background-color: rgb(53,156,183);
+}
+
+.pop-ski-2 {
+background-image: url('/images/pop-ski-2.png');
+background-color: rgb(149,169,132);
+}
+
+.pop-ski-3 {
+background-image: url('/images/pop-ski-3.png');
+background-color: rgb(53,156,183);
+}
 
 /*------------------------------------------------------------------------------*/
 /*----------------------------------- Links & Buttons --------------------------------------*/
@@ -133,7 +197,7 @@ a:hover {
 /*----------------------------------- Footer --------------------------------------*/
 
 footer {
-  background-color: rgb(240,178,68)
+  background-color: rgb(240,178,68);
 }
 
 footer a {  
@@ -172,7 +236,7 @@ footer nav a {
 }
 
 .link:hover {   
-    border-bottom: 1px solid brown;    
+    border-bottom: 1px solid rgb(240,178,68);    
 }
 
 .light-link       {
@@ -224,71 +288,6 @@ Columns can be hidden at breakpoints:
      ------*/
      
 
-
-/*--------------------- Images and Backgrounds ---------------------------*/
-
-img {   
-  max-width: 100%;    
-}
-
-.navbar img {
-max-width: 200px;
-}
-
-/*-----------------------------------------------------------------*/
-
-
-.bg {
-    min-height: 60vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.gallery {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
-    width: 50%;
-    height: 300px;
-    border: 15px solid gold;
-}
-
-/*-----------------------------------------------------------------*/
-  /*--------------------- Background Colours ---------------------------*/
-
-  .bg-green { background-color: rgb(149,169,132); }
-
-  .bg-blue { background-color: rgb(53,156,183); 
-            color: white; }
-
-  .bg-yellow { background-color: rgb(240,178,68); }
-
-  .bg-white { background-color: white; }
-}
-/*-----------------------------------------------------------------*/
- /*--------------------- Background Images ---------------------------*/
-
-
- .bg-pop-featured {
-  background-image: url('/images/bg-pop-featured.png'); 
-  background-color: rgb(240,178,68);
-}
-
-.pop-ski-1 {
-background-image: url('/images/pop-ski-1.png');
-background-color: rgb(53,156,183);
-}
-
-.pop-ski-2 {
-background-image: url('/images/pop-ski-2.png');
-background-color: rgb(149,169,132);
-}
-
-.pop-ski-3 {
-background-image: url('/images/pop-ski-3.png');
-background-color: rgb(53,156,183);
-}
 
 /*----------------------- Kontaktformular -----------------------*/
     form input, form textarea {
