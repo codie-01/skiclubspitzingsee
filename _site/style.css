@@ -112,23 +112,23 @@ a {
 }
 
 a:hover { 
-    color: black; 
+    color: rgb(53,156,183); 
 }
 
 .button-style {
     color: white;
-    background-color: brown;
+    background-color: rgb(53,156,183);
     display: inline-block;
-    border: 1px solid brown; 
+    border: 1px solid rgb(53,156,183); 
     border-radius: 30px; 
     padding: 1rem 1.2rem;
     margin: 2rem 0rem 0rem 0rem;
 }
 
 .button-style:hover {
-    color: brown;
+    color: rgb(53,156,183);
     background-color:white;
-    border: 1px solid brown;
+    border: 1px solid rgb(53,156,183);
     transition: all 0.3s;
 }
 
@@ -162,11 +162,12 @@ a:hover {
 
 /*----------------------------------- Header --------------------------------------*/
 
+header a { padding: 1rem; }
+    
 header img {
   max-width: 240px;
 }
-header a { padding: 1rem; }
-    
+
 header img { max-width: 50%;}
 /* no min-height needed in header?!?!?! 
 header { min-height: 20vh; }  */
@@ -277,9 +278,9 @@ footer nav a {
         }
 
         button:hover {
-            color: gold;
+            color: rgb(53,156,183);
             background-color: white;
-            border: 1px solid gold;
+            border: 1px solid rgb(53,156,183);
           }
 
           .pointer { cursor: pointer; }
@@ -326,7 +327,7 @@ footer nav a {
   }
   
   .nav-link:hover{
-    color: brown;
+    color: rgb(53,156,183);
   }
   
   .hamburger {
@@ -340,7 +341,7 @@ footer nav a {
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
-    background-color: brown;
+    background-color: rgb(53,156,183);
   }
   
   @media(max-width:768px){
